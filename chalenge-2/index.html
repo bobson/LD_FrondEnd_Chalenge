@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Challenge-2</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <nav>Products</nav>
+      <nav><img src="/images/navbar/zap.svg" alt="zap" />What’s new</nav>
+      <span class="red"><img src="/images/navbar/redNumber.svg" alt="red number"/></span>
+    </div>
+
+    <section class="search">
+      <div class="input-container">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Cerca un prodotto..."
+        />
+        <label class="search-icon" for="search-input">
+          <img src="/images/chalenge_2/search.svg" alt="search-icon" />
+        </label>
+      </div>
+
+      <p>Products ( 24 / 100 )</p>
+      <span class="line"></span>
+
+      <p>
+        Featured products (7/10)
+        <span class="switch"
+          ><img src="/images/chalenge_2/switch.svg" alt="switch"
+        /></span>
+      </p>
+      <span class="line"></span>
+
+      <select>
+        <option disabled selected>Select category</option>
+        <!-- <option>Option 1</option>
+        <option>Option 2</option>
+        <option>Option 3</option> -->
+      </select>
+
+      <div class="grid-line">
+        <img class="grid" src="/images/chalenge_2/grid.svg" alt="grid" />
+        <span class="line"></span>
+        <img src="/images/chalenge_2/list.svg" alt="list"/>
+      </div>
+
+      <button><img src="/images/chalenge_2/plus.svg" alt="plus"/>Add product</button>
+    </section>
+    <main>
+      <!-- Content here is generated with javaScript 
+        in script file -->
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
